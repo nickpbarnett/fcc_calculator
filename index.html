@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Nick's Simple Calc</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+
+</head>
+<body>
+<br>
+<div class="container">
+<form class="calcBody" name="Calc">
+  <h3>Nick's Simple Calculator</h3>
+  <div class="row">
+    <div class="col-xs-12"><input type="text" id="display1" name="Display1" class="form-control" readonly></div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12"><input type="text" id="display2" name="Display2" class="form-control" readonly></div>
+  </div>
+  <div class="row">
+    <div class="col-xs-9"><input type="button" value="clear" class="btn btn-block btn-danger" onclick="clearDisplay()"></div>
+    <div class="col-xs-3"><input type="button" value="/" class="btn btn-block btn-info" onclick="addDigit('/')"></div>
+  </div>
+
+  <div class="row">
+    <div class="col-xs-3"><input type="button" value="7" class="btn btn-block btn-info" onclick="addDigit('7')"></div>
+    <div class="col-xs-3"><input type="button" value="8" class="btn btn-block btn-info" onclick="addDigit('8')"></div>
+    <div class="col-xs-3"><input type="button" value="9" class="btn btn-block btn-info" onclick="addDigit('9')"></div>
+    <div class="col-xs-3"><input type="button" value="*" class="btn btn-block btn-info" onclick="addDigit('*')"></div>
+  </div>
+  <div class="row">
+    <div class="col-xs-3"><input type="button" value="4" class="btn btn-block btn-info" onclick="addDigit('4')"></div>
+    <div class="col-xs-3"><input type="button" value="5" class="btn btn-block btn-info" onclick="addDigit('5')"></div>
+    <div class="col-xs-3"><input type="button" value="6" class="btn btn-block btn-info" onclick="addDigit('6')"></div>
+    <div class="col-xs-3"><input type="button" value="-" class="btn btn-block btn-info" onclick="addDigit('-')"></div>
+  </div>
+  <div class="row">
+    <div class="col-xs-3"><input type="button" value="1" class="btn btn-block btn-info" onclick="addDigit('1')"></div>
+    <div class="col-xs-3"><input type="button" value="2" class="btn btn-block btn-info" onclick="addDigit('2')"></div>
+    <div class="col-xs-3"><input type="button" value="3" class="btn btn-block btn-info" onclick="addDigit('3')"></div>
+    <div class="col-xs-3"><input type="button" value="+" class="btn btn-block btn-info" onclick="addDigit('+')"></div>
+  </div>
+  <div class="row">
+    <div class="col-xs-3"><input type="button" value="0" class="btn btn-block btn-info" onclick="addDigit('0')"></div>
+    <div class="col-xs-3"><input type="button" value="." class="btn btn-block btn-info" onclick="addDigit('.')"></div>
+    <div class="col-xs-6"><input type="button" value="=" class="btn btn-block btn-info" onclick="calcAns()"></div>
+  </div>
+</form>
+</div>
+
+</body>
+</html>

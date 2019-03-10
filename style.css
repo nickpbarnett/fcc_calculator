@@ -1,0 +1,54 @@
+body{
+	
+background: #fffbd5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #b20a2c, #fffbd5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #b20a2c, #fffbd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+
+.btn{
+	box-shadow: 1px 1px black;
+}
+
+.calcBody{
+	color:white;
+	text-align: center;
+	margin:auto;
+	min-width:60%;
+	background-color: #2980b9;
+	border-radius: 5px;
+	border:1px solid #000;
+	box-shadow: 0 0 10px rgba(0,0,0,0.9);
+
+}
+
+.row{
+	margin: 10px;
+}
+
+.btn{
+	font-size: 20px;
+	text-align: center;
+
+}
+
+#display1{
+	font-size: 30px;
+	text-align: right;
+	height:50px;
+	background-color: #313331;
+	color:#42f442;
+}
+
+#display2{
+	font-size: 30px;
+	background-color: #bacfef;
+	color: #385177;
+	text-align: right;
+}
+
+
+
+
+
